@@ -145,7 +145,6 @@ body.dark-theme{
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024px;
   margin-inline: 1.5rem;
 }
 
@@ -439,6 +438,7 @@ body.dark-theme{
     transition: background 0.4s; /* for dark mode animation */
 }
 
+
 .popular__img{
     width: 220px;
     position: absolute;
@@ -554,7 +554,7 @@ body.dark-theme{
 }
 
 .newsletter__img{
-    width: 250px;
+    width: 280px;
     position: absolute;
     top: -4.5rem;
     left: -8rem;
@@ -581,14 +581,6 @@ body.dark-theme{
 
 .newsletter__button{
     cursor: pointer;
-}
-
-.newsletter__spinach{
-    width: 30px;
-    position: absolute;
-    right: 2rem;
-    bottom: -2rem;
-    transform: rotate(45deg);
 }
 /*=============== FOOTER ===============*/
 .footer{
@@ -666,23 +658,6 @@ body.dark-theme{
 .footer__social-link:hover{
     color: var(--first-color-alt);
     transform: translateY(-2px);
-}
-
-.footer__onion, .footer__spinach{
-    width: 30px;
-    position: absolute;
-}
-
-.footer__onion{
-    top: 7.5rem;
-    right: 5rem;
-    transform: rotate(-45reg);
-}
-
-.footer__spinach{
-    bottom: 8rem;
-    left: 3rem;
-    transform: rotate(30deg);
 }
 
 .footer__leaf{
@@ -809,9 +784,13 @@ body.dark-theme{
         justify-content: center;
     }
 
+    .newsletter__img{
+        width: 360px;
+    }
     .footer__content{
         grid-template-columns: repeat(3, max-content);
     }
+    
 }
 
 @media screen and (min-width: 767px){
@@ -855,7 +834,7 @@ body.dark-theme{
     }
 
     .nav{
-        height: calc(var(--header-height) + 1.5rem);
+        height: calc(var(--header-height) + 2rem);
     }
 
     .home__container{
@@ -915,21 +894,21 @@ body.dark-theme{
     }
 
     .popular__container{
-        grid-template-columns: repeat(3, 262px);
+        grid-template-columns: repeat(2, 262px);
         column-gap: 3.5rem;
         padding-block: 6rem 4rem
     }
 
     .popular__card{
-        padding: 7.5rem 2rem 2rem;
+        padding: 10rem 4rem 4rem;
         border-radius: 1.5rem;
     }
 
     .popular img{
-        width: 450px;
+        width: 480px;
     }
 
-    .poppular__button{
+    .popular__button{
         bottom: 2rem;
     }
 
@@ -965,6 +944,8 @@ body.dark-theme{
     .newsletter__img{
         position: initial;
         width: 350px;
+        transform: scale(2);
+        
     }
 
     .newsletter .section__subtitle, .newsletter .section__title{
@@ -981,12 +962,6 @@ body.dark-theme{
 
     .newsletter__button{
         font-size: var(--normal-font-size)
-    }
-
-    .newsletter__spinach{
-        width: 40px;
-        right: 5rem;
-        bottom: -2.5rem;
     }
 
     .footer{
@@ -1021,15 +996,6 @@ body.dark-theme{
         order: -1;
     }
 
-    .footer__spinach{
-        bottom: -3rem;
-        left: 6rem;
-    }
-
-    .footer__onion{
-        right: 1rem;
-    }
-
     .scrollup{
         right: 3rem;
     }
@@ -1042,11 +1008,18 @@ body.dark-theme{
 }
 
 @media screen and (min-width: 1280px){
-    .home__leaf-1{
+    
+    .popular__container{
+        grid-template-columns: repeat(4, 262px);
+        column-gap: 3.5rem;
+        padding-block: 6rem 4rem
+    }
+ 
+    .home__leaf1{
         width: 150px;
         top: 5rem;
     }
-    .home__leaf-2{
+    .home__leaf2{
         width: 180px;
         right: -4rem;
     }
@@ -1074,3 +1047,163 @@ body.dark-theme{
         width: 150px;
     }
 }
+
+@media screen and (min-width: 1520px){
+
+    .home__container{
+        position: relative;
+        grid-template-columns: 700px 720px;
+        padding-block: 7rem 3rem;
+        font-size: 25px;
+    }
+
+    .home__title img{
+        width: 80px;
+    }
+    .home__data p{
+        font-size: 25px;
+    }
+
+    .home .button{
+        font-size: 25px;
+    }
+
+    .about__container{
+        grid-template-columns: 600px 720px;
+        align-items: center;
+        column-gap: 7rem;
+    }
+    
+    .about__title img{
+        padding-left: 6px;
+    }
+
+    .about__title{
+        display: inline-block;
+    }
+
+    .about__title img{
+        width: 60px;
+    }
+    .about__img{
+        width: 480px;
+    }
+
+    .about__data span{
+        font-size: 35px;
+    }
+
+    .about__data p{
+        font-size: 25px;
+    }
+
+    .popular__container{
+        grid-template-columns: repeat(4, 340px);
+        column-gap: 3.5rem;
+        padding-block: 6rem 4rem
+    }
+
+    .popular__card{
+        padding: 12rem 4rem 4rem;
+        border-radius: 1.5rem;
+    }
+
+    .popular .section__subtitle, .popular .section__title{
+        font-size: 35px;
+    }
+
+    .popular .popular__button {
+        font-size: 35px;
+    }
+
+    .popular .popular__description{
+        font-size: 20px;
+    }
+
+    .popular .popular__name {
+        font-size: 25px;
+    }
+
+    .recently__container{
+        grid-template-columns: 700px 680px;
+        align-items: center;
+    }
+
+    .recently__img{
+        width: 600px;
+    }
+
+    .recently__data .section__subtitle, .recently__data .section__title{
+        font-size: 35px;
+    }
+
+    .recently__data p{
+        font-size: 25px;
+    }
+
+    .recently__data .button{
+        font-size: 25px;
+    }
+    
+    .newsletter__content{
+        grid-template-columns: 350px 360px;
+        align-items: center;
+        column-gap: 6rem;
+        padding: 2.5rem 0;
+        border-radius: 4.5rem
+    }
+
+    .newsletter__img{
+        position: initial;
+        width: 350px;
+    }
+
+    .newsletter .section__title{
+        margin-bottom: 2.5rem;
+    }
+
+    .newsletter__form{
+        padding: 8px 8px 8px 24px;
+    }
+
+    .newsletter__button{
+        font-size: var(--normal-font-size)
+    }
+
+    .footer{
+        padding-block: 8rem 3rem;
+    }
+
+    .footer__container{
+        position: relative;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+    }
+
+    .footer__content{
+        column-gap: 4rem;
+    }
+
+    .footer__title, .footer__description, .footer__link, .footer__information{
+        font-size: var(--normal-font-size);
+    }
+
+    .footer__social-link{
+        font-size: 1.5rem;
+    }
+
+    .footer__info{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 8.5rem;
+    }
+
+    .footer__copy{
+        order: -1;
+    }
+
+    .scrollup{
+        right: 3rem;
+    }
+}
+
