@@ -787,10 +787,15 @@ body.dark-theme{
     .newsletter__img{
         width: 360px;
     }
+
     .footer__content{
         grid-template-columns: repeat(3, max-content);
     }
     
+    .newsletter__form{
+        background-color: #fff;
+        column-gap: .5rem;
+    }
 }
 
 @media screen and (min-width: 767px){
@@ -818,6 +823,7 @@ body.dark-theme{
     .popular__container{
         grid-template-columns: repeat(2, 250px);
     }
+
 
     .footer__content{
         grid-template-columns: repeat(4, max-content);
@@ -961,7 +967,8 @@ body.dark-theme{
     }
 
     .newsletter__button{
-        font-size: var(--normal-font-size)
+        font-size: var(--normal-font-size);
+
     }
 
     .footer{
@@ -1146,50 +1153,38 @@ body.dark-theme{
     }
     
     .newsletter__content{
-        grid-template-columns: 350px 360px;
-        align-items: center;
-        column-gap: 6rem;
-        padding: 2.5rem 0;
-        border-radius: 4.5rem
+        grid-template-columns: 450px 560px;
     }
 
     .newsletter__img{
-        position: initial;
-        width: 350px;
-    }
-
-    .newsletter .section__title{
-        margin-bottom: 2.5rem;
+        width: 450px;
     }
 
     .newsletter__form{
-        padding: 8px 8px 8px 24px;
+        padding: 8px 8px 8px 28px;
     }
 
-    .newsletter__button{
-        font-size: var(--normal-font-size)
+    .newsletter__button, .newsletter__input{
+        font-size: 25px;
+    }
+
+    .newsletter .section__subtitle{
+        font-size: 35px;
     }
 
     .footer{
         padding-block: 8rem 3rem;
     }
-
-    .footer__container{
-        position: relative;
-        grid-template-columns: repeat(2, max-content);
-        justify-content: space-between;
-    }
-
-    .footer__content{
-        column-gap: 4rem;
+    .footer__description{
+        margin-left: 40px;
     }
 
     .footer__title, .footer__description, .footer__link, .footer__information{
-        font-size: var(--normal-font-size);
+        font-size: 20px;
     }
 
     .footer__social-link{
-        font-size: 1.5rem;
+        font-size: 40px;
     }
 
     .footer__info{
@@ -1200,10 +1195,7 @@ body.dark-theme{
 
     .footer__copy{
         order: -1;
-    }
-
-    .scrollup{
-        right: 3rem;
+        font-size: 18px;
     }
 }
 
