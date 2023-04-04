@@ -141,7 +141,12 @@ body.dark-theme{
 .dark-theme::-webkit-scrollbar-thumb:hover{
     background-color: hsl(19, 8%, 35%);
 }
-
+.dark-theme .footer__links li ul li {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #fff;
+  }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -693,6 +698,19 @@ body.dark-theme{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
 }
+.footer__links li ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Style the items in the sub-list */
+  .footer__links li ul li {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #444;
+  }
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
     width: .6rem;
@@ -773,8 +791,17 @@ body.dark-theme{
     .newsletter__button{
         justify-content: center;
     }
+    .footer__links li ul li {
+        font-size: 7px;
+      }
     .footer__content{
         gap: 1.5rem;
+    }
+    
+}
+@media screen and (min-width: 340px){
+    .footer__links li ul li {
+        font-size: 8px;
     }
 }
 /* For medium devices */
@@ -796,6 +823,10 @@ body.dark-theme{
         background-color: #fff;
         column-gap: .5rem;
     }
+    .footer__links li ul li {
+        font-size: 9px;
+      }
+    
 }
 
 @media screen and (min-width: 767px){
@@ -828,6 +859,9 @@ body.dark-theme{
     .footer__content{
         grid-template-columns: repeat(4, max-content);
     }
+    .footer__links li ul li {
+        font-size: 10px;
+      }
 }
 /* For large devices */
 @media screen and (min-width: 1024px){
@@ -1002,6 +1036,9 @@ body.dark-theme{
     .footer__copy{
         order: -1;
     }
+    .footer__links li ul li {
+        font-size: 12px;
+      }
 
     .scrollup{
         right: 3rem;
@@ -1012,6 +1049,7 @@ body.dark-theme{
     .containter{
         margin-inline: auto;
     }
+    
 }
 
 @media screen and (min-width: 1280px){
@@ -1053,6 +1091,9 @@ body.dark-theme{
         margin: 0 auto;
         width: 150px;
     }
+    .footer__links li ul li {
+        font-size: 16px;
+      }
 }
 
 @media screen and (min-width: 1520px){
