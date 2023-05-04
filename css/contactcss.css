@@ -323,6 +323,26 @@ body.dark-theme{
     margin-bottom: 2.5rem;
 }
 
+.contitle{
+  font-size: 40px;
+  text-align: center;
+}
+
+.info__data{
+  margin-left: 0.8rem;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.call p, .email p, .Location p, .BusinessHours p{
+  font-size: 28px;
+}
+
+.call h2, .email h2, .Location h2, .BusinessHours h2{
+  padding-bottom: 0.8rem;
+  padding-top: 0.6rem;
+}
+
 
 
 /* Show Scroll Up*/
