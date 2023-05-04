@@ -318,17 +318,12 @@ body.dark-theme{
     row-gap: 3rem;
     padding-top: 2rem;
 }
-.details__data{
-    text-align: center;
-}
 .information{
     padding: 0 1rem;
     margin-bottom: 2.5rem;
 }
 
-.inputs{
-    text-align: center;
-}
+
 
 /* Show Scroll Up*/
 
