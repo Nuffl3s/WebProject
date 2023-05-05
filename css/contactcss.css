@@ -326,6 +326,7 @@ body.dark-theme{
 .contitle{
   font-size: 40px;
   text-align: center;
+  font-weight: bold;
 }
 
 .info__data{
@@ -343,16 +344,207 @@ body.dark-theme{
   padding-top: 0.6rem;
 }
 
+form {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 10px;
+  margin: 15px;
+  padding-right: 10px;
+  font-size: 20px;
 
+}
 
-/* Show Scroll Up*/
+.input__grid {
+  display: grid;
+  gap: 5px;
+}
 
+.mail,
+.name {
+  grid-row: 1 / 2;
+  padding-left: 20px;
+}
+
+.address,
+.feedback {
+  grid-row: 2 / 3;
+  padding-left: 20px;
+}
+
+.mail label,
+.name label,
+.address label,
+.feedback label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mail input,
+.name input,
+.address input,
+.feedback textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--first-color);
+  color: #fff;
+  font-weight: var(--font-medium);
+  border-radius: 4rem;
+  width: 10rem;
+  margin-left: 20px;
+  gap: 5px;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px){
+  .contitle{
+    font-size: 30px;
+   
+  }
+  .info__data{
+    font-size: 18px;
+  }
+  .call p, .email p, .Location p, .BusinessHours p{
+    font-size: 18px;
+  }
+
+  .input__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mail,
+  .name,
+  .address,
+  .feedback {
+    grid-row: auto;
+    padding-left: 0;
+  }
+  
+  .mail label,
+  .name label,
+  .address label,
+  .feedback label {
+    font-size: 16px;
+  }
+  
+  .mail input,
+  .name input,
+  .address input,
+  .feedback textarea {
+    font-size: 14px;
+  }
+}
 
 
 /* For medium devices */
+@media screen and (min-width: 767px){
+  .nav{
+    column-gap: 3rem;
+}
 
+.nav__toggle, .nav__close, .nav__img-1, .nav__img-2{
+    display: none;
+}
+
+.nav__list{
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.nav__menu{
+    margin-left: auto;
+}
+
+.dark-theme .nav__menu{
+    box-shadow: none;
+}
+.details__container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  padding-top: 2rem;
+}
+.input__grid{
+  padding-top: 4rem;
+}
+.information{
+  padding: 0 2rem;
+  font-size: 20px;
+}
+
+.contitle{
+  font-size: 40px;
+  text-align: left;
+}
+
+.info__data{
+  margin-left: 0;
+}
+
+.call p, .email p, .Location p, .BusinessHours p{
+  font-size: 25px;
+}
+
+form {
+  padding-right: 0;
+}
+  .button{
+    width: 15rem;
+  }
+  .mail label,
+  .name label,
+  .address label,
+  .feedback label {
+    font-size: 20px;
+  }
+  
+  .mail input,
+  .name input,
+  .address input,
+  .feedback textarea {
+    font-size: 20px;
+  }
+}
 
 /* For large devices */
+@media screen and (min-width: 1064px){
+  .information{
+    font-size: 25px;
+  }
+  
+  .contitle{
+    font-size: 45px;
+  }
+  
+  .call p, .email p, .Location p, .BusinessHours p{
+    font-size: 30px;
+  }
+  
+  .mail label,
+  .name label,
+  .address label,
+  .feedback label {
+    font-size: 25px;
+  }
+  
+  .mail input,
+  .name input,
+  .address input,
+  .feedback textarea {
+    font-size: 25px;
+  }
+  .button{
+    font-size: 25px;
+    width: 20rem;
+  }
+}
