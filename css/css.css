@@ -784,9 +784,12 @@ body.dark-theme{
         width: initial;
         padding: 1rem;
         border-radius: 4rem;
+        display: inline-block;
     }
     .newsletter__button{
         justify-content: center;
+        display: inline-block; 
+        flex: 1;
     }
     .footer__links li ul li {
         font-size: 7px;
@@ -798,13 +801,18 @@ body.dark-theme{
 }
 @media screen and (min-width: 340px){
     .footer__links li ul li {
-        font-size: 8px;
+        font-size: 8px;    
+    }
+    .newsletter__content{
+        grid-template-columns: .4fr;
+        justify-content: center;
+        
     }
 }
 /* For medium devices */
 @media screen and (min-width: 567px){
     .home__container, .about__container, .recently__container, .newsletter__content{
-        grid-template-columns: .7fr;
+        grid-template-columns: .6fr;
         justify-content: center;
     }
 
@@ -817,8 +825,12 @@ body.dark-theme{
     }
     
     .newsletter__form{
-        background-color: #fff;
-        column-gap: .5rem;
+        column-gap: 5rem;
+    }
+    
+    .newsletter__content{
+        align-items: center;
+        column-gap: 1rem;
     }
     .footer__links li ul li {
         font-size: 9px;
@@ -854,13 +866,44 @@ body.dark-theme{
         grid-template-columns: repeat(2, 250px);
     }
 
-    .newsletter__button{
-        max-width: max-content;
+    .section__subtitle, .section__title{
+        font-size: 1.8rem;
     }
 
+    .newsletter__content{
+        grid-template-columns: 350px 360px;
+        align-items: center;
+        column-gap: 3rem;
+        padding: 2.5rem 0;
+        border-radius: 4.5rem
+    }
+
+    .newsletter__img{
+        position: initial;
+        width: 350px;
+        transform: scale(1.5)   
+    }
+
+    .newsletter .section__subtitle, .newsletter .section__title{
+        text-align: initial;
+    }
+
+    .newsletter .section__title{
+        margin-bottom: 2.5rem;
+    }
+
+    .newsletter__form{
+        padding: 8px 8px 8px 24px;
+        column-gap: .5rem;
+    }
+
+    .newsletter__button{
+        font-size: var(--normal-font-size);
+    }
 
     .footer__content{
         grid-template-columns: repeat(4, max-content);
+        column-gap: 8rem;
     }
     .footer__links li ul li {
         font-size: 10px;
