@@ -400,6 +400,7 @@ body.dark-theme{
 
 .about__title img{
     width: 50px;
+
 }
 
 .about__title div{
@@ -412,6 +413,7 @@ body.dark-theme{
 .about__img{
     width: 400px;
     justify-self: center;
+    transform: scale(2);
 }
 
 .about__leaf{
