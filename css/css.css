@@ -1,6 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
-
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -829,6 +826,8 @@ body.dark-theme{
     
 }
 
+
+
 @media screen and (min-width: 767px){
     .nav{
         column-gap: 3rem;
@@ -853,6 +852,10 @@ body.dark-theme{
 
     .popular__container{
         grid-template-columns: repeat(2, 250px);
+    }
+
+    .newsletter__button{
+        max-width: max-content;
     }
 
 
