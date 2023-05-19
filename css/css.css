@@ -310,8 +310,8 @@ body.dark-theme{
     padding-top: 2rem;
 }
 
-.hoem__img{
-    width: 300px;
+.home__image{
+    width: 400px;
     justify-self: center;
 }
 
@@ -1097,6 +1097,10 @@ body.dark-theme{
     .containter{
         margin-inline: auto;
     }
+
+    .home__image{
+        width: 500px;
+    }
     
 }
 
@@ -1106,6 +1110,10 @@ body.dark-theme{
         grid-template-columns: repeat(4, 262px);
         column-gap: 3.5rem;
         padding-block: 6rem 4rem
+    }
+
+    .home__image{
+        width: 500px;
     }
  
     .home__leaf1{
@@ -1151,6 +1159,9 @@ body.dark-theme{
         grid-template-columns: 700px 720px;
         padding-block: 7rem 3rem;
         font-size: 25px;
+    }
+    .home__image{
+        width: 550px;
     }
 
     .home__title img{
