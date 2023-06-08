@@ -12,7 +12,14 @@
                             <a href="#about" class="nav__link">About Us</a>
                         </li>
                         <li class="nav__item">
-                            <a href="../recipe.php" class="nav__link">Recipe</a>
+                        <a href="#" class="nav__link" onclick="toggleDropdown(event)">Recipe</a>
+                        <div id="recipe-dropdown" class="dropdown-menu">
+                            <a href="../recipe1.php">Item 1</a>
+                            <a href="#">Item 2</a>
+                            <a href="#">Item 3</a>
+                            <a href="#">Item 4</a>
+                            <a href="#">Item 5</a>
+                        </div>
                         </li>
                         <li class="nav__item">
                             <a href="../contact.php" class="nav__link">Contact Us</a>

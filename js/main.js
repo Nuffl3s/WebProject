@@ -18,10 +18,13 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
-
-/*=============== REMOVE MENU MOBILE ===============*/
-
-
+/*=============== DROPDOWN HIDDEN ===============*/ 
+function toggleDropdown(event) {
+    event.preventDefault();
+    var dropdown = document.getElementById("recipe-dropdown");
+    dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+  }
+  
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () =>{
     const header = document.getElementById('header')
@@ -91,12 +94,4 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-const sr =ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2500,
-    delay: 400,
-})
 
-sr.reveal('.home__image')
-sr.reveal('.home__data', { origin: 'bottom'})
