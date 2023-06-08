@@ -14,11 +14,11 @@
                         <li class="nav__item">
                         <a href="#" class="nav__link" onclick="toggleDropdown(event)">Recipe</a>
                         <div id="recipe-dropdown" class="dropdown-menu">
-                            <a href="../recipe1.php">Item 1</a>
-                            <a href="../recipe2.php">Item 2</a>
-                            <a href="../recipe3.php">Item 3</a>
-                            <a href="../recipe4.php">Item 4</a>
-                            <a href="../recipe5.php">Item 5</a>
+                            <a href="../Onigiri.php">Onigiri</a>
+                            <a href="../Springrolls.php">Spring Rolls</a>
+                            <a href="../sushirolls.php">Sushi Rolls</a>
+                            <a href="../frieddumplins.php">Fired Dumplings</a>
+                            <a href="../ramen.php">Ramen</a>
                         </div>
                         </li>
                         <li class="nav__item">

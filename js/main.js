@@ -24,6 +24,12 @@ function toggleDropdown(event) {
     var dropdown = document.getElementById("recipe-dropdown");
     dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
   }
+
+  function toggleDropdown(event) {
+    event.preventDefault();
+    var dropdown = document.getElementById("recipe-dropdown");
+    dropdown.classList.toggle("show");
+}
   
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () =>{

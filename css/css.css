@@ -287,6 +287,21 @@ body.dark-theme{
 .dropdown-menu {
     display: none;
   }
+  .dropdown-menu.show {
+    display: block; /* Display the dropdown menu as a block when it's shown */
+    position: absolute; /* Position the dropdown menu absolutely */
+}
+
+.dropdown-menu.show a {
+    display: block; /* Display each dropdown item as a block */
+    margin: 5px 0; /* Add margin between each dropdown item */
+    color: black; /* Set the default color of the links */
+    text-decoration: none; /* Remove the default underline */
+}
+
+.dropdown-menu a:hover {
+    color: var(--first-color); /* Set the color of the links when hovering */
+}
 /* Show menu */
 .show-menu{
     top: 0;
