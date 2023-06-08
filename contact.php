@@ -16,7 +16,7 @@
          <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="css/contactcss.css">
+        <link rel="stylesheet" href="css/css.css">
 
         <title>Sushi</title>
     </head>
@@ -87,6 +87,6 @@
             </section>
         </main>
         <!--=============== MAIN JS ===============-->
-        <script src="js/recipe.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

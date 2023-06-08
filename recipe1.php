@@ -30,6 +30,7 @@
         <main class="main">
             <!--==================== Recipe ====================-->
             <section class="recipe section" id="recipe">
+            <h1>Onigiri</h1>
             <div class="recipe__container container grid">
                     <img src="img/popular-onigiri.png" alt="" class="recipe__image">
                 
@@ -65,11 +66,13 @@
                             </tr>
                         </table>
                     </div>
+                    <img src="img/leaf-branch-2.png" loading="lazy" alt="home image" class="home__leaf1">
+                    <img src="img/leaf-branch-4.png" loading="lazy" alt="home image" class="home__leaf2">
                 </div>
             </section>
 
+
             <!--==================== Steps ====================-->
-            <section class="steps section" id="step">
                 <div class="step__container">
                     <ol>
                         <li>Rinse the rice: Place the rice in a large bowl and cover it with cold water. Swirl the rice with your hand and drain the water. Repeat this process 3-4 times until the water runs clear.</li>
@@ -82,7 +85,6 @@
                     </ol>
                 </div>
                 
-            </section>
 
             <!--==================== Feedback ====================-->
             <section class="feedback section" id="feedback">

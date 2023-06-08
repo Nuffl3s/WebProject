@@ -6,7 +6,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="../index.php" class="nav__link active-link">Home</a>
+                            <a href="../index.php" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
                             <a href="#about" class="nav__link">About Us</a>
@@ -15,10 +15,10 @@
                         <a href="#" class="nav__link" onclick="toggleDropdown(event)">Recipe</a>
                         <div id="recipe-dropdown" class="dropdown-menu">
                             <a href="../recipe1.php">Item 1</a>
-                            <a href="#">Item 2</a>
-                            <a href="#">Item 3</a>
-                            <a href="#">Item 4</a>
-                            <a href="#">Item 5</a>
+                            <a href="../recipe2.php">Item 2</a>
+                            <a href="../recipe3.php">Item 3</a>
+                            <a href="../recipe4.php">Item 4</a>
+                            <a href="../recipe5.php">Item 5</a>
                         </div>
                         </li>
                         <li class="nav__item">

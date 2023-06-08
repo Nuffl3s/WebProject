@@ -38,7 +38,7 @@
 
                         <ul class="footer__links">
                             <li>
-                                <a href="contact.html" class="footer__link">Contact Us</a>
+                                <a href="../contact.php" class="footer__link">Contact Us</a>
                                 <ul>
                                     <li><i class="ri-phone-line"></i>
                                         09123456789</li>

@@ -43,27 +43,6 @@ const scrollUp = () =>{
 }
 window.addEventListener('scroll', scrollUp)
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-const sections = document.querySelectorAll('section[id]')
-    
-const scrollActive = () =>{
-  	const scrollY = window.pageYOffset
-
-	sections.forEach(current =>{
-		const sectionHeight = current.offsetHeight,
-			  sectionTop = current.offsetTop - 58,
-			  sectionId = current.getAttribute('id'),
-			  sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
-
-		if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-			sectionsClass.classList.add('active-link')
-		}else{
-			sectionsClass.classList.remove('active-link')
-		}                                                    
-	})
-}
-window.addEventListener('scroll', scrollActive)
-
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
@@ -94,4 +73,23 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+/*=============== POPULAR RECIPE BUTTONS ===============*/ 
+const repbutton1 = document.getElementById("repbutton1")
+repbutton1.addEventListener("click", function(){
+    window.location.href=repbutton1.getAttribute("href");
+});
 
+const repbutton2 = document.getElementById("repbutton2")
+repbutton2.addEventListener("click", function(){
+    window.location.href=repbutton2.getAttribute("href");
+});
+
+const repbutton3 = document.getElementById("repbutton3")
+repbutton3.addEventListener("click", function(){
+    window.location.href=repbutton3.getAttribute("href");
+});
+
+const repbutton4 = document.getElementById("repbutton4")
+repbutton4.addEventListener("click", function(){
+    window.location.href=repbutton4.getAttribute("href");
+});

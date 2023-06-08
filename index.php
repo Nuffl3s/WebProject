@@ -95,7 +95,7 @@
                         <h3 class="popular__name">Onigiri</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button class="popular__button">
+                        <button id="repbutton1" class="popular__button" href="../recipe1.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -106,7 +106,7 @@
                         <h3 class="popular__name">Spring Rolls</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button class="popular__button">
+                        <button id="repbutton2" class="popular__button" href="../recipe2.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -117,7 +117,7 @@
                         <h3 class="popular__name">Sushi Rolls</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button class="popular__button">
+                        <button id="repbutton3" class="popular__button" href="../recipe3.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -128,7 +128,7 @@
                         <h3 class="popular__name">Fried Dumplings</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button class="popular__button">
+                        <button id="repbutton4" class="popular__button" href="../recipe4.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -153,7 +153,7 @@
                             
                         </p>
 
-                        <a href="#" class="button">
+                        <a href="../recipe5.php" class="button">
                             View Recipe Now
                             <i class="ri-search-eye-line"></i>
                         </a>
