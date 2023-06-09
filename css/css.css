@@ -288,19 +288,19 @@ body.dark-theme{
     display: none;
   }
   .dropdown-menu.show {
-    display: block; /* Display the dropdown menu as a block when it's shown */
-    position: absolute; /* Position the dropdown menu absolutely */
+    display: block;
+    position: absolute; 
 }
 
 .dropdown-menu.show a {
-    display: block; /* Display each dropdown item as a block */
-    margin: 5px 0; /* Add margin between each dropdown item */
-    color: black; /* Set the default color of the links */
-    text-decoration: none; /* Remove the default underline */
+    display: block; 
+    margin: 5px 0;
+    color: black; 
+    text-decoration: none; 
 }
 
 .dropdown-menu a:hover {
-    color: var(--first-color); /* Set the color of the links when hovering */
+    color: var(--first-color); 
 }
 /* Show menu */
 .show-menu{
@@ -311,9 +311,6 @@ body.dark-theme{
 .bg-header{
     box-shadow: 0 2px 8px hsla(19, 64%, 24%, .1);
 }
-
-/*------- Drop down ---------*/
-
 
 /*=============== HOME ===============*/
 
@@ -766,7 +763,7 @@ body.dark-theme{
     bottom: 3rem;
 }
 /*=============== Recipe for all  ===============*/
-h1{
+.recipetitle{
     display: flex;
     justify-content: center;
     font-family: var(--title-font);
@@ -889,7 +886,7 @@ form {
   border-radius: 3px;
 }
 
-.button {
+.conbutton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -898,7 +895,6 @@ form {
   font-weight: var(--font-medium);
   border-radius: 4rem;
   width: 10rem;
-  margin-left: 20px;
   gap: 5px;
 }
 
@@ -970,6 +966,7 @@ form {
     .footer__content{
         gap: 1.5rem;
     }
+   
     
 }
 @media screen and (min-width: 340px){
@@ -1047,6 +1044,20 @@ form {
         font-size: 9px;
       }
     
+     
+}
+@media screen and (max-width: 767px){
+    .dropdown-menu.show a {
+        display: inline-block; 
+        margin: 0 5px; 
+    }
+
+    .dropdown-menu.show {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        left: 120px;
+    }
 }
 
 @media screen and (min-width: 767px){
@@ -1071,6 +1082,13 @@ form {
         box-shadow: none;
     }
 
+    /*------- Drop down ---------*/
+    .dropdown-menu{
+    right: 145px;
+    background: var(--body-color);
+    padding: 8px;
+}
+
     .popular__container{
         grid-template-columns: repeat(2, 250px);
     }
@@ -1080,7 +1098,7 @@ form {
     }
 
     .newsletter__content{
-        grid-template-columns: 350px 360px;
+        grid-template-columns: 350px 390px;
         align-items: center;
         column-gap: 3rem;
         padding: 2.5rem 0;
@@ -1149,7 +1167,7 @@ form {
       form {
         padding-right: 0;
       }
-        .button{
+        .conbutton{
           width: 15rem;
         }
         .mail label,
@@ -1277,7 +1295,7 @@ form {
     }
 
     .newsletter__content{
-        grid-template-columns: 350px 360px;
+        grid-template-columns: 320px 410px;
         align-items: center;
         column-gap: 6rem;
         padding: 2.5rem 0;
@@ -1288,7 +1306,10 @@ form {
         position: initial;
         width: 350px;
         transform: scale(2);
-        
+    }
+
+    .newsletter__button{
+        width: 20rem;
     }
 
     .newsletter .section__subtitle, .newsletter .section__title{
@@ -1305,7 +1326,7 @@ form {
 
     .newsletter__button{
         font-size: var(--normal-font-size);
-
+        font-size: 20px;
     }
 
     .footer{
@@ -1411,7 +1432,7 @@ form {
        margin-right: calc(100vw * 180/1900);
     }	
     
-      .button{
+      .conbutton{
         font-size: 25px;
         width: 20rem;
       }
@@ -1578,7 +1599,7 @@ form {
     }
 
     .newsletter__button, .newsletter__input{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .newsletter .section__subtitle{

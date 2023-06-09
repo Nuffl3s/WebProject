@@ -77,7 +77,7 @@
                                 <textarea name="message" placeholder="Enter your massage" id="message" cols="30" rows="10"></textarea>
                             </div>
                         </div>
-                        <a href="#" class="button">
+                        <a href="#" class="conbutton">
                             Send  <i class="ri-mail-send-line"></i>
                         </a>
                     </form>

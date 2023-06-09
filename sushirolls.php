@@ -30,7 +30,7 @@
         <main class="main">
             <!--==================== Recipe ====================-->
             <section class="recipe section" id="recipe">
-            <h1>Sushi Rolls</h1>
+            <h1 class="recipetitle">Sushi Rolls</h1>
             <div class="recipe__container container grid">
                     <img src="img/popular-sushi-rolls.png" alt="" class="recipe__image">
                 

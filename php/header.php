@@ -9,7 +9,7 @@
                             <a href="../index.php" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About Us</a>
+                            <a href="../index.php#about" class="nav__link">About Us</a>
                         </li>
                         <li class="nav__item">
                         <a href="#" class="nav__link" onclick="toggleDropdown(event)">Recipe</a>
