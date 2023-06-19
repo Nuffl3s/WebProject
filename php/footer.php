@@ -49,11 +49,11 @@
                             </li>
 
                             <li>
-                                <a href="#" class="footer__link">Tips and Tricks</a>
+                                <a href="#" class="footer__link">---</a>
                             </li>
 
                             <li>
-                                <a href="#" class="footer__link">Videos</a>
+                                <a href="#" class="footer__link">---</a>
                             </li>
                             
                         </ul>
