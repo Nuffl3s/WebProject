@@ -773,13 +773,12 @@ body.dark-theme{
 .recipe__container{
     grid-template-columns: 350px 380px;
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 7rem;
     justify-content: center;
 }
 
 .recipe__image{
     transform: scale(1.5);
-    margin: 2rem;
 }
 
 table, td{
@@ -805,11 +804,6 @@ th{
     margin: 3rem;
     padding: .5rem;
 }
-
-.arrow {
-    color: red;
-    font-weight: bold;
-  }
 
 /*=============== CONTACT ===============*/
 .details{
@@ -923,8 +917,6 @@ form {
 }
 
 
-
-
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px){
@@ -974,7 +966,6 @@ form {
     .footer__content{
         gap: 1.5rem;
     }
-    
    
     
 }
@@ -1067,13 +1058,6 @@ form {
         justify-content: center; 
         left: 120px;
     }
-    .recipe__container {
-        display: flex;
-        flex-direction: column;
-      }
-      #ramen__image{
-        max-width: 24%;
-      }
 }
 
 @media screen and (min-width: 767px){
@@ -1100,7 +1084,7 @@ form {
 
     /*------- Drop down ---------*/
     .dropdown-menu{
-    right: 170px;
+    right: 145px;
     background: var(--body-color);
     padding: 8px;
 }
@@ -1647,29 +1631,5 @@ form {
         order: -1;
         font-size: 18px;
     }
-
-    .recipe__container{
-        grid-template-columns: 350px 520px;
-    }
-
-    .recipe__data{
-        font-size: 1.3rem;
-    }
-    th{
-        font-size: 3rem;
-        padding-bottom: 2rem;
-    }
-    td{
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-    .step__container li {
-        padding: 5px 0;
-        font-size: 1.3rem;
-      }
-    
-     
-    
 }
 

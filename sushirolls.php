@@ -94,14 +94,14 @@
                     <li>Season the rice: Pour the sushi vinegar mixture over the cooked rice. Using a wooden spatula, gently fold and mix the rice to evenly distribute the vinegar. Be careful not to overmix and mash the rice. Let the seasoned rice cool completely.</li>
                     <li>Prepare the sushi fillings: Slice the fish, avocado, cucumber, carrot, and any other desired fillings into long, thin strips.</li>
                     <li>Assemble the sushi rolls:
-                        <ol>
-                        <li>Place a bamboo sushi mat on a clean surface. Put a sheet of nori on top of the mat.</li>
-                        <li>Moisten your hands with water to prevent the rice from sticking. Take a handful of sushi rice and spread it evenly over the nori, leaving a small border at the top edge.</li>
-                        <li>Arrange your desired fillings horizontally in the center of the rice.</li>
-                        <li>Begin rolling the sushi by lifting the edge of the mat closest to you, while holding the fillings in place with your fingers. Roll the mat tightly away from you, applying gentle pressure to shape the roll.</li>
-                        <li>Wet the top border of the nori sheet with a bit of water to seal the roll.</li>
-                        <li>Repeat the process with the remaining nori sheets and fillings.</li>
-                        </ol>
+                        <ul>
+                        <li><span class="arrow">-></span> Place a bamboo sushi mat on a clean surface. Put a sheet of nori on top of the mat.</li>
+                        <li><span class="arrow">-></span> Moisten your hands with water to prevent the rice from sticking. Take a handful of sushi rice and spread it evenly over the nori, leaving a small border at the top edge.</li>
+                        <li><span class="arrow">-></span> Arrange your desired fillings horizontally in the center of the rice.</li>
+                        <li><span class="arrow">-></span> Begin rolling the sushi by lifting the edge of the mat closest to you, while holding the fillings in place with your fingers. Roll the mat tightly away from you, applying gentle pressure to shape the roll.</li>
+                        <li><span class="arrow">-></span> Wet the top border of the nori sheet with a bit of water to seal the roll.</li>
+                        <li><span class="arrow">-></span> Repeat the process with the remaining nori sheets and fillings.</li>
+                        </ul>
                     </li>
                     <li>Slice and serve: Using a sharp knife, slice each sushi roll into bite-sized pieces. Wipe the knife with a damp cloth between each slice to keep it clean and prevent sticking. Arrange the sushi rolls on a serving platter.</li>
                 </ol>

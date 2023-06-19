@@ -193,7 +193,7 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            <?php include "php/footer.php";?>
+            <?php include "../WebProject/php/footer.php";?>
         </footer>
 
         <!--========== SCROLL UP ==========-->

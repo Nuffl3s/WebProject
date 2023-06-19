@@ -99,8 +99,6 @@
             <?php include "php/footer.php";?>
         </footer>
 
-        <!--========== SCROLL UP ==========-->
-
 
         <!--=============== SCROLLREVEAL ===============-->
         <script src=""></script>
