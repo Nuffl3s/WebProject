@@ -984,10 +984,9 @@ form {
     }
     .newsletter__content{
         grid-template-columns: .4fr;
-        justify-content: center;
-        
+        justify-content: center; 
     }
-
+    
     /*---Contact---*/
     contitle{
         font-size: 30px;
@@ -1025,7 +1024,10 @@ form {
       .feedback textarea {
         font-size: 14px;
       }
+    
+  
 }
+
 /* For medium devices */
 @media screen and (min-width: 567px){
     .home__container, .about__container, .recently__container, .newsletter__content{
@@ -1114,12 +1116,13 @@ form {
     }
 
     .newsletter__content{
-        grid-template-columns: 350px 390px;
+        grid-template-columns: 350px 340px;
         align-items: center;
-        column-gap: 3rem;
+        column-gap: 1rem;
         padding: 2.5rem 0;
         border-radius: 4.5rem
     }
+
 
     .newsletter__img{
         position: initial;
@@ -1142,6 +1145,9 @@ form {
 
     .newsletter__button{
         font-size: var(--normal-font-size);
+    }
+    .newsletter__form{
+        margin: -8px;
     }
 
     .footer__content{

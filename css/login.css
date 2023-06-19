@@ -91,10 +91,16 @@ body{
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
-
-
 /* For medium devices */
-
+@media screen and (min-width: 767px){
+  .container{
+    max-width: 480px;
+    height: 520px;
+    font-size: larger;
+  }
+}
 
 /* For large devices */
+@media screen and (min-width: 1024px){
+
+}
