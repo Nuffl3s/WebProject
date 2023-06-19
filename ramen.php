@@ -32,7 +32,7 @@
             <section class="recipe section" id="recipe">
             <h1 class="recipetitle">Ramen</h1>
             <div class="recipe__container container grid">
-                    <img src="img/recently_ramen.png" alt="" class="recipe__image" id="ramen__image">
+                    <img src="img/recently_ramen.png" alt="" class="recipe__image" loading="lazy" id="ramen__image">
                 
 
                     <div class="recipe__data">

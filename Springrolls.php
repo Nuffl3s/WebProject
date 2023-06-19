@@ -32,7 +32,7 @@
             <section class="recipe section" id="recipe">
             <h1 class="recipetitle">Spring Rolls</h1>
             <div class="recipe__container container grid">
-                    <img src="img/popular-spring-rols.png" alt="" class="recipe__image">
+                    <img src="img/popular-spring-rols.png" alt="" loading="lazy" class="recipe__image">
                 
 
                     <div class="recipe__data">
