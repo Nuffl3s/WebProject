@@ -23,7 +23,7 @@
         <input type="text" placeholder="Enter your email" required>
         <input type="password" placeholder="Enter your password" required>
         <a href="#">Forgot password?</a>
-        <a href="../home.php"><input type="button" class="button" value="Login"></a>
+        <a href="home.php"><input type="button" class="button" value="Login"></a>
       </form>
       <div class="signup">
         <span class="signup">Don't have an account?
@@ -37,7 +37,7 @@
         <input type="text" placeholder="Enter your email" required>
         <input type="password" placeholder="Create a password" required>
         <input type="password" placeholder="Confirm your password" required>
-        <a href="../home.php"><input type="button" class="button" value="Signup"></a>
+        <a href="home.php"><input type="button" class="button" value="Signup"></a>
       </form>
       <div class="signup">
         <span class="signup">Already have an account?
