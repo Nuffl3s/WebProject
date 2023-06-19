@@ -7,23 +7,23 @@
     <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
             <li class="nav__item">
-                <a href="../index.php" class="nav__link">Home</a>
+                <a href="home.php" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
-                <a href="../index.php#about" class="nav__link">About Us</a>
+                <a href="home.php#about" class="nav__link">About Us</a>
             </li>
             <li class="nav__item">
                 <a href="#" class="nav__link" onclick="toggleDropdown(event)">Recipe</a>
                 <div id="recipe-dropdown" class="dropdown-menu">
-                    <a href="../Onigiri.php">Onigiri</a>
-                    <a href="../Springrolls.php">Spring Rolls</a>
-                    <a href="../sushirolls.php">Sushi Rolls</a>
-                    <a href="../frieddumplins.php">Fired Dumplings</a>
-                    <a href="../ramen.php">Ramen</a>
+                    <a href="Onigiri.php">Onigiri</a>
+                    <a href="Springrolls.php">Spring Rolls</a>
+                    <a href="sushirolls.php">Sushi Rolls</a>
+                    <a href="frieddumplins.php">Fired Dumplings</a>
+                    <a href="ramen.php">Ramen</a>
                 </div>
             </li>
             <li class="nav__item">
-                <a href="../contact.php" class="nav__link">Contact Us</a>
+                <a href="contact.php" class="nav__link">Contact Us</a>
             </li>
         </ul>
 

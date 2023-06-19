@@ -21,15 +21,15 @@
                             </li>
 
                             <li>
-                                <a href="#" class="footer__link">Menus</a>
+                                <a href="#" class="footer__link">---</a>
                             </li>
 
                             <li>
-                                <a href="#" class="footer__link">New</a>
+                                <a href="#" class="footer__link">---</a>
                             </li>
 
                             <li>
-                                <a href="#" class="footer__link">Events</a>
+                                <a href="#" class="footer__link">---</a>
                             </li>
                         </ul>
                     </div>
@@ -38,7 +38,7 @@
 
                         <ul class="footer__links">
                             <li>
-                                <a href="../contact.php" class="footer__link">Contact Us</a>
+                                <a href="contact.php" class="footer__link">Contact Us</a>
                                 <ul>
                                     <li><i class="ri-phone-line"></i>
                                         09123456789</li>

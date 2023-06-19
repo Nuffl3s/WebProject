@@ -95,7 +95,7 @@
                         <h3 class="popular__name">Onigiri</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button id="repbutton1" class="popular__button" href="../Onigiri.php">
+                        <button id="repbutton1" class="popular__button" href="Onigiri.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -106,7 +106,7 @@
                         <h3 class="popular__name">Spring Rolls</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button id="repbutton2" class="popular__button" href="../Springrolls.php">
+                        <button id="repbutton2" class="popular__button" href="Springrolls.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -117,7 +117,7 @@
                         <h3 class="popular__name">Sushi Rolls</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button id="repbutton3" class="popular__button" href="../sushirolls.php">
+                        <button id="repbutton3" class="popular__button" href="sushirolls.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -128,7 +128,7 @@
                         <h3 class="popular__name">Fried Dumplings</h3>
                         <span class="popular__description">Japanese Dish</span>
 
-                        <button id="repbutton4" class="popular__button" href="../frieddumplins.php">
+                        <button id="repbutton4" class="popular__button" href="frieddumplins.php">
                             <i class="ri-pages-line"></i>
                         </button>
                     </article>
@@ -153,7 +153,7 @@
                             
                         </p>
 
-                        <a href="../ramen.php" class="button">
+                        <a href="ramen.php" class="button">
                             View Recipe Now
                             <i class="ri-search-eye-line"></i>
                         </a>
@@ -193,7 +193,7 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            <?php include "../WebProject/php/footer.php";?>
+            <?php include "php/footer.php";?>
         </footer>
 
         <!--========== SCROLL UP ==========-->
