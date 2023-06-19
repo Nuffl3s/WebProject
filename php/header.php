@@ -38,7 +38,7 @@
 
     <div class="nav__buttons">
         <!-- the user icon -->
-        <a href="../login.php" class="nav__link">
+        <a href="../index.php" class="nav__link">
             <i class="ri-user-3-fill"></i>
         </a>
 
