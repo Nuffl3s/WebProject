@@ -289,14 +289,15 @@ body.dark-theme{
   }
   .dropdown-menu.show {
     display: block;
-    position: absolute; 
+
 }
 
 .dropdown-menu.show a {
     display: block; 
     margin: 5px 0;
     color: black; 
-    text-decoration: none; 
+    text-decoration: none;
+    color: var(--title-color);
 }
 
 .dropdown-menu a:hover {
@@ -778,7 +779,6 @@ body.dark-theme{
 }
 
 .recipe__image{
-    transform: scale(1.5);
     margin: 2rem;
 }
 
@@ -974,8 +974,9 @@ form {
     .footer__content{
         gap: 1.5rem;
     }
+  
     
-   
+
     
 }
 @media screen and (min-width: 340px){
@@ -1024,9 +1025,41 @@ form {
       .feedback textarea {
         font-size: 14px;
       }
+      .dropdown-menu.show a {
+        display: inline-block; 
+        margin: 0 5px; 
+    }
     
+    .dropdown-menu.show {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    } 
   
 }
+
+@media screen and (max-width: 400px){
+    .newsletter__content{
+        padding: 6rem 1rem 2rem;
+    }
+    .newsletter__form{
+        flex-direction: column;
+        background: none;
+        row-gap: 1rem;
+    }
+    .newsletter__input{
+        width: initial;
+        padding: 1rem;
+        border-radius: 4rem;
+        display: inline-block;
+    }
+    .newsletter__button{
+        justify-content: center;
+        display: inline-block; 
+        flex: 1;
+    } 
+}
+
 
 /* For medium devices */
 @media screen and (min-width: 567px){
@@ -1054,31 +1087,23 @@ form {
     .footer__links li ul li {
         font-size: 9px;
       }
-    
      
 }
 @media screen and (max-width: 767px){
-    .dropdown-menu.show a {
-        display: inline-block; 
-        margin: 0 5px; 
-    }
-
-    .dropdown-menu.show {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center; 
-        left: 120px;
-    }
+    
     .recipe__container {
         display: flex;
         flex-direction: column;
       }
-      #ramen__image{
-        max-width: 24%;
-      }
+    
 }
 
 @media screen and (min-width: 767px){
+    .dropdown-menu{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+    }
     .nav{
         column-gap: 3rem;
     }
