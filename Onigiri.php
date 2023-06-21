@@ -23,7 +23,7 @@
     <body>
         <!--==================== HEADER ====================-->
         <nav class="nav container">
-    <a href="#" class="nav__logo" href="home.php">
+    <a href="home.php" class="nav__logo" href="home.php">
         <img src="img/logo.png" loading="lazy" alt="logo image">
         Sushi
     </a>
